@@ -17,20 +17,26 @@ ol {
 
 .box1 {
   background-color:orange;
-  width:200px;
-  height:200px;
+  width:100px;
+  height:100px;
   /* margin-bottom:20px; */
   /* margin: 0 0 20px;
   margin-left:auto;
   margin-right:auto; */
-  margin-bottom:20px;
 
 }
 
 .box2 {
   background-color: skyblue;
-  width:50%;
-  height:50%;
+  width:100px;
+  height:100px;
+  /* position:static; */
+  position:relative;
+  /* position:fixed;
+  top:30px;
+  left:30px; */
+  /* width:50%;
+  height:50%; */
   /* border-width:2px;
   border-style:solid;
   border-color:blue; */
@@ -49,5 +55,18 @@ ol {
 
 .box3 {
   background-color:tomato;
-  margin-top:10px;
+  width:100px;
+  height:100px;
+  /* width:100px;
+  height:40px;
+  /* display:inline-block; */
+}
+
+.rect {
+  width:50px;
+  height:20px;
+  background-color: lime;
+  position: absolute;
+  top:-5px;
+  right:-5px;
 }
