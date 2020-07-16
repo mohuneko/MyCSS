@@ -1,9 +1,9 @@
-ul {
+/* ul { */
   /* list-style-type:circle;
   list-style-position: inside;
   list-style-image: url(../img/icon.png) */
-  list-style:circle inside url(../img/icon.png);
-}
+  /* list-style:circle inside url(../img/icon.png);
+} */
 
 ol {
   list-style-type: lower-alpha;
@@ -103,3 +103,65 @@ ol {
   box-shadow: 10px 5px 3px 10px rgba(0,0,0,0.3);
   /* margin-left:auto; */
 }
+
+
+.box7 {
+  background-color: orange;
+  width:100px;
+  height:100px;
+}
+.box8 {
+  background-color:skyblue;
+  width:100px;
+  height:100px;
+}
+.box9 {
+  background-color:tomato;
+  width:100px;
+  height:100px;
+}
+
+header {
+  height:80px;
+  /* background-color: pink; */
+  /* background-image:url(../img/header.png);
+  background-size:cover;
+  background-position: center; */
+  background:center/cover pink url(../img/header.png);
+}
+
+img {
+  float:right;
+}
+
+h2 {
+  clear:right;
+  /* clear:left;
+  clear:both; */
+}
+
+/* h1 {
+  color:skyblue;
+} */
+
+#title {
+  color:pink;
+}
+/* 
+[target] {
+  font-weight: bold;
+}
+
+[href="#top"] {
+  font-weight: bold;
+} */
+
+/* [href^="https"] {
+  font-weight: bold;
+} */
+/* [href$="dotinstall"] {
+  font-weight: bold;
+} */
+/* [href*="com"] {
+  font-weight: bold;
+} */
