@@ -144,9 +144,9 @@ h2 {
   color:skyblue;
 } */
 
-#title {
+/* #title {
   color:pink;
-}
+} */
 /* 
 [target] {
   font-weight: bold;
@@ -165,3 +165,29 @@ h2 {
 /* [href*="com"] {
   font-weight: bold;
 } */
+
+h1::before,
+h2::before{
+  content: '-';
+
+}
+
+h1::after,
+h2::after{
+  /* content: '-'; */
+  content: attr(data-subtitle);
+
+}
+
+.btn {
+  width: 100px;
+  background: skyblue;
+  text-align: center;
+  padding: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
