@@ -15,6 +15,46 @@ main > h2:last-of-type {
   background: skyblue;
 } */
 
-li:not(:empty) {
+/* li:not(:empty) {
   background: skyblue;
+} */
+
+/* #about > #main {
+  color:grey;
+}
+h1 {
+  color:red !important;
+}
+
+h1#main.box {
+  color:yellow !important;
+}
+
+section > #main.title {
+  color:blue;
+}
+
+section#about > h1 {
+ color:pink;
+} */
+
+.container {
+  display:flex;
+}
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.box1 {
+  background: orange;
+  flex:1;
+}
+
+.box2 {
+  background: skyblue;
+}
+
+.box3 {
+  background: tomato;
 }
