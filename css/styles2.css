@@ -38,7 +38,7 @@ section#about > h1 {
  color:pink;
 } */
 
-.container {
+/* .container {
   display:flex;
 }
 .box {
@@ -57,4 +57,69 @@ section#about > h1 {
 
 .box3 {
   background: tomato;
+} */
+
+/* html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+header {
+  background:pink;
+  margin-bottom: 100px;
+}
+
+.container {
+  display:flex;
+  flex:1;
+  margin-top: 50px;
+}
+
+main {
+  background: skyblue;
+  flex: 1;
+}
+
+nav {
+  background: tomato;
+  width: 100px;
+  order: -1;
+}
+
+aside {
+  background: orange;
+  width: 100px;
+}
+
+footer {
+  background:grey;
+} */
+
+body {
+  margin: 0;
+}
+
+header {
+  height: 200px;
+  background: silver;
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div{
+  width: 50px;
+  height: 100px;
+  background:skyblue;
+  /* position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 50px); */
+
 }
